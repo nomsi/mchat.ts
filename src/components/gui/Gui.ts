@@ -22,7 +22,7 @@ export default class ChatGui {
   }
 
   private chatBox: blessed.box = blessed.box({
-    label: "yrel.console",
+    label: "console",
     width: "100%",
     height: "100%-3",
     border: { type: "line" }
@@ -45,7 +45,6 @@ export default class ChatGui {
   });
 
   private input: blessed.textbox = blessed.textbox({
-    label: "",
     bottom: 0,
     width: "100%",
     height: 3,
