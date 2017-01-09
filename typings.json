@@ -1,0 +1,27 @@
+{
+  "globalDependencies": {
+    "chai": "registry:dt/chai",
+    "chai-http": "registry:dt/chai-http",
+    "discord": "github:zajrik/discord.js-typings/index.d.ts",
+    "mocha": "registry:dt/mocha",
+    "mongoose": "registry:dt/mongoose",
+    "node": "registry:env/node#6.0.0+20170102175725",
+    "request-promise": "registry:dt/request-promise",
+    "restler": "registry:dt/restler"
+  },
+  "dependencies": {
+    "bluebird": "registry:dt/bluebird",
+    "body-parser": "registry:dt/body-parser",
+    "colors": "registry:dt/colors",
+    "debug": "registry:dt/debug",
+    "express": "registry:dt/express",
+    "gulp": "registry:dt/gulp",
+    "irc": "registry:dt/irc",
+    "morgan": "registry:dt/morgan",
+    "node-emoji": "registry:dt/node-emoji#1.4.0+20170105191157",
+    "redis": "registry:dt/redis",
+    "request": "registry:dt/request",
+    "restify": "registry:dt/restify",
+    "winston": "registry:dt/winston"
+  }
+}

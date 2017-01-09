@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "outDir": "dist/",
+    "noEmitHelpers": true,
+    "noEmit": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "sourceMap": false
+  },
+  "exclude": [
+    "node_modules",
+    "typings",
+    "src/types",
+    "dist/"
+  ],
+  "files": ["typings/index.d.ts" ],
+  "filesGlob": ["src/**/*.ts"],
+  "types": ["node"],
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
